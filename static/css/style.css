@@ -1,0 +1,183 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #222;
+}
+
+
+/* Navigation */
+
+header {
+    background: #111;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 8%;
+    background: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.small-title {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    display: block;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background: #111;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+
+/* Sections */
+
+.section {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+
+/* Services */
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    width: 30%;
+
+    border-radius: 10px;
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.portfolio-item {
+    background: white;
+
+    padding: 60px 30px;
+
+    width: 30%;
+
+    border-radius: 10px;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+
+    padding: 80px 8%;
+
+    background: #111;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .button {
+    margin-top: 25px;
+    background: white;
+    color: #111;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    background: #000;
+    color: white;
+}
+```
